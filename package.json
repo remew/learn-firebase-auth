@@ -1,0 +1,21 @@
+{
+  "name": "learn-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^5.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "babel-loader": "^8.0.0-bata",
+    "html-webpack-plugin": "^4.0.0-alpha",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
